@@ -1,5 +1,5 @@
 name: mmoSkills
-main: mmo.Skills.mmoSkills
+main: mmo.Skills.MMOSkills
 version: 0.1
 website: http://forums.bukkit.org/threads/
 author: Olloth <olloth@gmail.com>
