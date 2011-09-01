@@ -1,0 +1,8 @@
+name: mmoSkills
+main: mmo.Skills.mmoSkills
+version: 0.1
+website: http://forums.bukkit.org/threads/
+author: Olloth <olloth@gmail.com>
+depend: [mmoCore]
+
+description: Utility functions for mmo-minecraft
