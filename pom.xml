@@ -60,7 +60,7 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 	<dependency>
-		<groupId>mmo.CoreMMOCore</groupId>
+		<groupId>mmo.Core.MMOCore</groupId>
 		<artifactId>MMOCore</artifactId>
 		<version>dev</version>
 	</dependency>
