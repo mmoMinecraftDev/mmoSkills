@@ -65,8 +65,8 @@
 		<version>dev</version>
 	</dependency>
 	</dependencies>
-	<artifactId>MMOSkills</artifactId>
-	<name>MMOSkills</name>
+	<artifactId>mmoSkills</artifactId>
+	<name>mmoSkills</name>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
