@@ -1,6 +1,6 @@
 /*
- * This file is part of mmoMinecraft (http://code.google.com/p/mmo-minecraft/).
- * 
+ * This file is part of mmoMinecraft (https://github.com/mmoMinecraftDev).
+ *
  * mmoMinecraft is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
@@ -10,7 +10,7 @@
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
-
+ *
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
@@ -38,16 +38,16 @@ public interface MMOSkillEvent {
 	 * Set the entity using the skill
 	 * @param self 
 	 */
-	public void setSelf(Entity self);
+	public void setEntity(Entity self);
 
 	/**
 	 * Get the entity using the skill
 	 * @return 
 	 */
-	public Entity getSelf();
+	public Entity getEntity();
 
 	/**
-	 * This casts getSelf to Player if possible, otherwise returns null
+	 * This casts getEntity to Player if possible, otherwise returns null
 	 * @return 
 	 */
 	public Player getPlayer();
@@ -126,7 +126,13 @@ public interface MMOSkillEvent {
 	 * @return 
 	 */
 	public boolean hasSkill(String skill);
-	
+
+	/**
+	 * Check if the skill should make any changes - NEVER do anything except check when this is false
+	 * @return 
+	 */
+	public boolean isRunning();
+
 	public boolean isCancelled();
 
 	public void setCancelled(boolean cancel);

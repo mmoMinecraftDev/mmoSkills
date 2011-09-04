@@ -1,6 +1,6 @@
 /*
- * This file is part of mmoMinecraft (http://code.google.com/p/mmo-minecraft/).
- * 
+ * This file is part of mmoMinecraft (https://github.com/mmoMinecraftDev).
+ *
  * mmoMinecraft is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
