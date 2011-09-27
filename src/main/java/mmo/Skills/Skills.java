@@ -16,8 +16,8 @@
  */
 package mmo.Skills;
 
-import mmo.CoreAPI.MMOListener;
-import mmo.SkillsAPI.MMOSkillEvent;
+import mmo.Core.MMOListener;
+import mmo.Core.SkillAPI.MMOSkillEvent;
 import org.bukkit.entity.Player;
 
 public class Skills extends MMOListener {
