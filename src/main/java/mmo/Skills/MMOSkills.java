@@ -17,18 +17,17 @@
 package mmo.Skills;
 
 import mmo.Core.MMOPlugin;
-import org.bukkit.util.config.Configuration;
+
+import org.bukkit.configuration.file.FileConfiguration;
 
 public class MMOSkills extends MMOPlugin {
-
 	@Override
 	public void onEnable() {
 		super.onEnable();
 	}
 
 	@Override
-	public void loadConfiguration(Configuration cfg) {
-		// TODO Auto-generated method stub
+	public void loadConfiguration(FileConfiguration cfg) {
 	}
 
 	@Override

@@ -16,17 +16,18 @@
  */
 package mmo.Skills;
 
-import mmo.Core.MMOListener;
 import mmo.Core.SkillAPI.MMOSkillEvent;
+
 import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
 
-public class Skills extends MMOListener {
-
-	@Override
+public class Skills implements Listener {
+	@EventHandler
 	public void onMMOSkill(MMOSkillEvent event) {
 		Player player = event.getPlayer();
 		if (event.hasSkill("invis") && event.isRunning()) {
-			
+
 		}
 	}
 }
