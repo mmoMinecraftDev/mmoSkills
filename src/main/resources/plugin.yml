@@ -1,8 +1,8 @@
 name: mmoSkills
-main: mmo.Skills.MMOSkills
-version: 0.1
-website: http://forums.bukkit.org/threads/
-author: Olloth <olloth@gmail.com>
-depend: [Spout,mmoCore]
+version: ${releaseVersion} b${buildNumber}
+description: Gives an event based API for skill use.
+author: mmoMinecraftDev
+website: http://mmo.me.uk
 
-description: Utility functions for mmo-minecraft
+main: mmo.Skills.MMOSkills
+depend: [Spout, mmoCore]
