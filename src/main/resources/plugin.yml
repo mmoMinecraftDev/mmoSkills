@@ -1,5 +1,5 @@
 name: mmoSkills
-version: ${releaseVersion} b${buildNumber}
+version: ${releaseVersion}.${buildNumber}
 description: Gives an event based API for skill use.
 author: mmoMinecraftDev
 website: http://mmo.me.uk
